@@ -2,10 +2,10 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'XBG4u.aternos.me',
+    host: 'xbg4u.minekeep.gg',
     port: 25565,
     username: 'noty hawa',
-    version: '1.21'
+    version: '1.21.11'
   });
 
   bot.on('login', () => {
